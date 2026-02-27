@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Added methanediol (MDL) as a transported gas-phase species and to the KPP fullchem and custom mechanisms
 - Added routine `Cloud_CH2O_MDL` in `KPP/fullchem/fullchem_SulfurChemFuncs.F90`
 - Added routine `Do_Drydep_Removal` to `GeosCore/drydep_mod.F90` to apply dry deposition loss to species
+- Added `BudgetDryDep*` History diagnostics
 
 ### Changed
 - Updated `main.F90` and `gchp_chunk_mod.F90` to so that dry deposition is done after emissions
